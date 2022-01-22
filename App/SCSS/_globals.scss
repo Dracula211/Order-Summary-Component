@@ -1,0 +1,43 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e0e8ff;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 100vh;
+  width: 100vw;
+  color: #a4a9bf;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.orders-container {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  &-jc-c {
+    justify-content: center;
+  }
+  &-jc-sb {
+    justify-content: space-between;
+  }
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+.pd-b {
+  margin-bottom: 0.625rem;
+}
